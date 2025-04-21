@@ -1,16 +1,28 @@
-{
-   "id":1,
-   "name": "Beverly",
-   "email":"salesbeverly3@gmail.com",
-   "phone": "09123456789",
-    "address": {
-      "street": "123 Main St",
-      "city": "QC",
-      "zip": "12345"
+[
+    {
+      "id": 1,
+      "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+      "author": "Ralph Waldo Emerson"
     },
-   "company":{
-     "name": "Tech Solution",
-     "position": "Software Engineer",
-     "department": "Development"
-   }
-}
+    {
+      "id": 2,
+      "quote": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon"
+    },
+    {
+      "id": 3,
+      "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill"
+    },
+    {
+      "id": 4,
+      "quote": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+      "author": "Albus Dumbledore (J.K. Rowling)"
+    },
+    {
+      "id": 5,
+      "quote": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt"
+    }
+  ]
+  

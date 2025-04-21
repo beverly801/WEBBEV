@@ -1,0 +1,38 @@
+<!--AJAX, API-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Lesson 1</title>
+</head>
+<body>
+    <button id="fetchMessage()">Click me</button>
+    <div id="message"></div>
+</body>
+
+<script>
+    function fetchMessage(){
+        let xhr = new XMLHttpRequest();
+
+
+        xhr.open('GET', 'https://beverly801.github.io/WEBBEV/data.json', true);
+
+        xhr.onload = function(){
+            if (xhr.status === 200){
+                let response = JSON.parse(xhr.responseText);
+
+                let randomQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
+
+                document.getElementById('message').innerText = '"${randomQoute.qoute}" -${randomQoute.author}"';
+            }else{
+                document.getElementById('message').innerText = 'Error';
+            }
+        } 
+
+        xhr.send();
+
+
+    }
+</script>
+</html>
