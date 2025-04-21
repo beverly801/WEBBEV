@@ -1,0 +1,16 @@
+{
+   "id":1,
+   "name": "Beverly",
+   "email":"salesbeverly3@gmail.com",
+   "phone": "09123456789",
+    "address": {
+      "street": "123 Main St",
+      "city": "QC",
+      "zip": "12345"
+    },
+   "company":{
+     "name": "Tech Solution",
+     "position": "Software Engineer",
+     "department": "Development"
+   }
+}
